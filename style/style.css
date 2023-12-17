@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;  
+}
+body{
+    background-color: #222831;
+    color: #EEEEEE;
+}
+h1{
+    color: #00ADB5;
+    font-family: 'Silkscreen', sans-serif;
+}
+button{
+    font-family: 'Bebas Neue', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+nav .logo{
+    font-size: 30px;
+}
+nav .navbar{
+    margin-top: 20px;
+}
+nav .navbar a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #EEEEEE;
+    padding: 20px 20px 20px;
+}
+.menu i{
+    font-size: 30px;
+    margin-top: 15px;
+    display: none;
+}
+@media (max-width:700px) {
+    .menu i{
+        display: block;
+    }
+    .navbar{
+        display: none;
+    }
+    .nav-hide{
+        display: block;
+        top: 30%;
+        position: absolute;
+        width: 10%;
+        line-height: 50px;
+        margin-right: 70px;
+    }
+}
+.hero-home{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 100px;
+    top: 30%;
+}
+.hero-home .left{
+    line-height: 40px;
+}
+.hero-home .left p{
+    font-size: 20px;
+    line-height: 20px;
+}
+.hero-home .left button{
+    font-size: 30px;
+    background-color: #EEEEEE;
+    color: #00ADB5;
+    padding: 10px 10px 10px;
+    border: none;
+    margin-top: 20px;
+}
+.hero-home .right .hero-image img{
+    min-height:300px;
+    min-width: 300px;
+    max-height: 100px;
+    max-width: 100px;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 30%;
+}
+.content h1{
+    font-size: 40px;
+    line-height: 50px;
+}
+.content p{
+    margin-top: 20px;
+    font-size: 25px;
+    width: 50%;
+    line-height: 40px;
+}
+.content button{
+    font-size: 40px;
+    padding: 10px 10px 10px;
+    color: #EEEEEE;
+    border: none;
+    color: #000;
+}
