@@ -110,3 +110,6 @@ nav .navbar a{
     border: none;
     color: #000;
 }
+.hide{
+    display: none;
+}
