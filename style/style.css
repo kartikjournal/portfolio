@@ -23,6 +23,9 @@ nav{
     justify-content: space-around;
     margin-top: 50px;
 }
+a{
+    text-decoration: none;
+}
 nav .logo{
     font-size: 30px;
 }

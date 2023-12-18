@@ -18,9 +18,12 @@
     border: 1px solid #fff;
     padding: 5px 5px 5px;
     line-height: 30px;
+    min-width:  100px;
+    max-width: 400px;
 }
 .card img{
     height: 200px;
+    width: 80%;
 }
 .card button{
     font-size: 20px;
