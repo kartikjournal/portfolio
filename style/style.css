@@ -87,32 +87,6 @@ nav .navbar a{
     max-height: 100px;
     max-width: 100px;
 }
-.content{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    position: absolute;
-    top: 30%;
-}
-.content h1{
-    font-size: 40px;
-    line-height: 50px;
-}
-.content p{
-    margin-top: 20px;
-    font-size: 25px;
-    width: 50%;
-    line-height: 40px;
-}
-.content button{
-    font-size: 40px;
-    padding: 10px 10px 10px;
-    color: #EEEEEE;
-    border: none;
-    color: #000;
-}
 .hide{
     display: none;
 }
